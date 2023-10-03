@@ -1,0 +1,98 @@
+.home {
+    height: 70vh;
+    align-items: center;
+    background-image: url(../../../public/IMG/home-slide-3.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+}
+
+.home>.banner {
+    margin-top: 4rem;
+}
+
+.b-heading {
+
+    text-align: center;
+    font-size: 3rem;
+    margin: 2rem;
+
+}
+
+.max-width {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    width: 70%;
+    border-radius: 5rem;
+    background: #fff;
+    margin: 1rem auto;
+
+}
+.search-select{
+    font-size: 1.5rem;
+}
+
+.max-width>.search-form {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+.max-width>.search-form>#search-box {
+    width: 100vh;
+    height: 100%;
+    font-size: larger;
+    border:none;
+    background:none;
+    /* background-color: red; */
+
+    padding:0 10rem;
+}
+
+
+.home .max-width>.search-form>label {
+    margin: 1rem;
+    margin-right: 0;
+    font-size: 2rem;
+    width: 2.5%;
+    cursor: pointer;
+    color: #666;
+}
+.home .max-width>.search-form>label:hover {
+    color: var(--pink);
+
+}
+
+
+
+.home .suggestion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.home .suggestion>.h-li {
+    color: #eee;
+    margin: .2rem .5rem;
+    font-size: 1.9rem;
+}
+
+.home .suggestion li {
+    color: #eee;
+    margin: .2rem .5rem;
+    font-size: 1.5rem;
+}
+
+.home .suggestion li a {
+    color: #ccc;
+}
+
+.home .suggestion li a:hover {
+    color: var(--pink);
+}

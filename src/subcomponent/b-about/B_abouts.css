@@ -1,0 +1,7 @@
+.B_abouts{
+    height: 35vh;
+    align-items: center;
+    background-image: url(../../../public/IMG/home-slide-3.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}

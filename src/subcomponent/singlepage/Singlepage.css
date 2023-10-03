@@ -1,0 +1,24 @@
+.container-item{
+    display: grid;
+    grid-template-columns: repeat(2,4fr);
+    
+    
+}
+
+.img-size{
+    
+    margin: 5rem 5rem;
+    
+    
+}
+.container-item-right{
+    margin: 5rem 5rem;
+}
+
+.container-item-right>.right-item>.item-name{
+    margin: 2rem 0;
+}
+.container-item-right>.right-item>.item-des{
+    margin: 2rem 0;
+}
+

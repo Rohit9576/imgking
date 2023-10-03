@@ -1,0 +1,36 @@
+/* Login.css */
+.login{
+  height: 100vh;
+}
+.login-container {
+    width: 300px;
+    padding: 20px;
+    margin: 5rem auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+     background-color: var(--e-global-color-c547aeb);
+  }
+  
+  .login-container h2 {
+    margin-top: 0;
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

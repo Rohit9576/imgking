@@ -1,0 +1,38 @@
+.btn {
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border: 0.1rem solid #0eb582;
+    /* background: #f0fdfa; */
+    background-color: var(--e-global-color-secondary);
+    /* background: var(--background-color); */
+    color: #0eb582;
+    cursor: pointer;
+    text-transform: capitalize;
+    border-radius: 10rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn:hover {
+    color: #fff;
+}
+.btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #0eb582;
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    transition: .4s;
+    
+}
+.btn:hover:before {
+    width: 100%;
+
+}

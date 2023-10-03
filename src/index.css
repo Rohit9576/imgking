@@ -1,0 +1,96 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+
+:root {
+  --main-color: #d3ad7f;
+  /* --black: #13131a; */
+  /* --bg: #010103; */
+  --bg: var(--green);
+  --border: .1rem solid rgba(255, 255, 255, .3);
+  --pink: #ff0552;
+
+  --green: #0eb582;
+  --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+  --black: #444;
+
+  --background-color: #0A192F;
+  --e-global-color-c547aeb: #112240;
+  --e-global-color-primary: #CCD6F6;
+  --e-global-color-3ca335e: #CCD6F6;
+
+  --e-global-color-secondary: #CCD6F6;
+  --e-global-color-text: #8892B0;
+  --e-global-color-accent: #64FFDA;
+  --e-global-color-ad28c5a: #E60072;
+  --e-global-color-6dfc9d8: #FFB684;
+  --e-global-color-c63fa37: #FFE4E3;
+  --e-global-color-6e06a0f: #FFEEEE;
+  --e-global-color-0dac157: #ECF0F3;
+  --e-global-color-589403c: #0302021F;
+  --e-global-color-2fbe2ae: #101617;
+  --e-global-color-28068af: #64FFDA;
+  --e-global-color-3b713c4: #0A192F;
+  --e-global-typography-primary-font-family: "Poppins";
+  --e-global-typography-primary-font-weight: 600;
+  --e-global-typography-secondary-font-family: "Poppins";
+  --e-global-typography-secondary-font-weight: 400;
+  --e-global-typography-text-font-family: "Open Sans";
+  --e-global-typography-text-font-weight: 400;
+  --e-global-typography-accent-font-family: "Poppins";
+  --e-global-typography-accent-font-weight: 500;
+  color: var( --e-global-color-text );
+  font-family: "Poppins", Sans-serif;
+  font-weight: 400;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html::-webkit-scrollbar {
+  width: .8rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 5rem;
+}
+
+
+body {
+  /* background: rgb(103, 128, 140); */
+  background-color: var(--background-color);
+}
+
+section {
+  padding: 2rem 7%;
+}
