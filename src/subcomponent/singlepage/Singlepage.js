@@ -75,8 +75,7 @@ const Singlepage = () => {
         </div>
       </div>
 
-      {/* Pass cartItems, removeFromCart, and updateQuantity as props to the Card component */}
-      <Card cartItems={cartItems} removeFromCart={removeFromCart} updateQuantity={updateQuantity} />
+
 
       
 

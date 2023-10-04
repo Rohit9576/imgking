@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import './Banner.css';
 
 const Banner = () => {
+    const [searchQuery, setSearchQuery] = useState('');
+
+    const handleSearch = (e) => {
+        e.preventDefault();
+        // Implement your search functionality here
+        alert(`Searching for: ${searchQuery}`);
+    };
+
     return (
         <div>
 
@@ -16,8 +24,15 @@ const Banner = () => {
                                 <select className='search-select'>
                                     <option>all</option>
                                 </select>
-                                <input type="search" id="search-box" placeholder="search here..." />
-                                <label htmlFor="search-box" className="fas fa-search"></label>
+                                {/* <input type="search" id="search-box" placeholder="search here..." /> */}
+                                <input
+                                    type="search"
+                                    id="search-box"
+                                    placeholder="search here..."
+                                    value={searchQuery}
+                                    onChange={(e) => setSearchQuery(e.target.value)}
+                                />
+                                <label type="submit" htmlFor="search-box" className="fas fa-search"></label>
                                 {/* <label htmlFor="search-box" className="fas fa-search"></label> */}
                             </div>
 

@@ -189,7 +189,7 @@ const Header = ({totalQuantity}) => {
                     <div className='header-item item-right'>
                         <div className="icons">
                             <div className="fas fa-search" id="search-btn"></div>
-                            <div className="fas fa-shopping-cart" id="cart-btn"  >{totalQuantity}</div>
+                            <div className="fas fa-shopping-cart" id="cart-btn"  >   <span className="total-quantity">{totalQuantity}</span></div>
                             <div className="fas fa-heart" id="heart-btn"></div>
                             <div className="fas fa-user" id="user-btn">
                                 <ul className="sub-menu-right">
